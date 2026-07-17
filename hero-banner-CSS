@@ -1,0 +1,133 @@
+.hero-banner {
+
+  grid-area: hero;
+
+  position: relative;
+
+  margin: 0 4px;
+
+  overflow: hidden;
+
+  border-radius: 24px;
+
+}
+
+
+
+.hero-banner img {
+
+  display: block;
+
+  position: relative;
+
+  z-index: 0;
+
+  width: 100%;
+
+  max-width: none;
+
+  height: auto;
+
+  border-radius: 24px;
+
+  border: 1px solid rgba(21, 71, 52, 0.12);
+
+  box-shadow: 0 24px 80px rgba(15, 23, 42, 0.08);
+
+}
+
+
+
+.hero-banner::after {
+
+  content: "";
+
+  position: absolute;
+
+  inset: 0;
+
+  z-index: 1;
+
+  background:
+
+    linear-gradient(90deg, rgba(7, 16, 13, 0.46) 0%, rgba(7, 16, 13, 0.26) 30%, rgba(7, 16, 13, 0.08) 56%, rgba(7, 16, 13, 0) 78%);
+
+  pointer-events: none;
+
+}
+
+
+
+.hero-banner__overlay {
+
+  position: absolute;
+
+  inset: 0;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: flex-start;
+
+  padding: clamp(20px, 3vw, 36px) clamp(24px, 4vw, 52px);
+
+  pointer-events: none;
+
+  z-index: 2;
+
+}
+
+
+
+.hero-banner__text {
+
+  width: min(50%, 520px);
+
+  max-width: 8ch;
+
+}
+
+
+
+.hero-banner__course {
+
+  margin: 0 0 10px;
+
+  color: #ffffff;
+
+  font-size: clamp(0.9rem, 1.2vw, 1.3rem);
+
+  font-weight: 600;
+
+  letter-spacing: 0.12em;
+
+  line-height: 1.1;
+
+  text-transform: uppercase;
+
+  white-space: nowrap;
+
+  text-shadow: 0 3px 8px rgba(0, 0, 0, 0.35);
+
+}
+
+
+
+.hero-banner__overlay h1 {
+
+  margin: 0;
+
+  color: #ffffff;
+
+  font-size: clamp(4rem, 7vw, 7rem);
+
+  font-weight: 800;
+
+  line-height: 1;
+
+  letter-spacing: 0.01em;
+
+  text-shadow: 0 3px 8px rgba(0, 0, 0, 0.35);
+
+}
