@@ -1,0 +1,17 @@
+<section class="hero-banner" aria-labelledby="page-title">
+
+  <img src="assets/Header Hero Banner.png" alt="NMES Trainer Simulator course banner">
+
+  <div class="hero-banner__overlay">
+
+    <div class="hero-banner__text">
+
+      <p class="hero-banner__course">DPT 6331</p>
+
+      <h1 id="page-title">NMES<br>Trainer<br>Simulator</h1>
+
+    </div>
+
+  </div>
+
+</section>
